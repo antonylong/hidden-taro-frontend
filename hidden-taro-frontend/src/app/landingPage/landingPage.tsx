@@ -2,6 +2,7 @@ import React from "react";
 
 const LandingPage = () => {
   const textInfo = [
+    // TODO: need to add or reference the icons to the actual icons
     {
       icon: "Brain",
       title: "Seasoned tech pros",
