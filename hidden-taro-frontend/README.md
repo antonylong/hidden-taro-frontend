@@ -4,6 +4,8 @@ TO-DO:
 
 - [ ] Add in images / icons
 - [ ] Add breakpoints
-- [ ]
+- [ ] Changing colour of the line
+- [ ] Bring line height higher (2rem?)
+- [ ] Confirm with Kevin re: what's the purple colour
 
 Business by Kevin Rodriguez Ladino
