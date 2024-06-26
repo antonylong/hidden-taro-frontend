@@ -10,5 +10,6 @@ TO-DO:
 - [ ] make an enum for colours
 
 Changed to public
+Updated Github pages config
 
 Business by Kevin Rodriguez Ladino
