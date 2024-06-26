@@ -1,4 +1,4 @@
-export const enum colours = ({
-    "primary": #F00000,
-}
-)
+// export const enum colours = ({
+//     "primary": #F00000,
+// }
+// )
