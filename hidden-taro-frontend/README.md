@@ -9,4 +9,6 @@ TO-DO:
 - [ ] Confirm with Kevin re: what's the purple colour
 - [ ] make an enum for colours
 
+Changed to public
+
 Business by Kevin Rodriguez Ladino
