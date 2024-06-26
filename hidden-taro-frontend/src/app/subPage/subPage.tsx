@@ -1,37 +1,31 @@
 import React from "react";
 
-const LandingPage = () => {
+const SubPage = () => {
   const textInfo = [
     // TODO: need to add or reference the icons to the actual icons
     {
-      icon: "Brain",
-      title: "Seasoned tech pros",
+      icon: "ClaspHands",
+      title: "Exclusive",
       description:
         "We are run by tech professionals who have built and grown amazing products and teams, across multiple sectors world-wide - we're here to help.",
     },
     {
-      icon: "Timer",
-      title: "Time is precious",
+      icon: "Join",
+      title: "Project",
       description:
         "We really care about delivering value to companies and talent. If at any point we feel we can't provide that, you'll be the first to know, always.",
     },
     {
-      icon: "People",
-      title: "Existing tech network",
+      icon: "Heart",
+      title: "Contract",
       description:
         "As professionals we have spent years building an incredibly  meaningful and diverse network which we tap into to deliver powerful results, for you.",
     },
     {
-      icon: "Handshake",
-      title: "We play fair with talent",
+      icon: "Fist",
+      title: "Extras",
       description:
         "We respect talent. You'll never see us ghost, over-promise, give un-helpful feedback, set unrealistic expectations or waste time. This will never change.",
-    },
-    {
-      icon: "Bicep",
-      title: "We do so much more",
-      description:
-        "From building your case study to running technical interviews for you. We help you with a broad range of needs, leveraging our experience in every way we can.",
     },
   ];
 
@@ -59,4 +53,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default SubPage;
