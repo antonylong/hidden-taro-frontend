@@ -1,20 +1,19 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
+import { BigHeading, SubHeading } from "~/components";
 
 const MvpPage = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center py-16">
-        <h2 className="text-8xl sm:text-4xl px-16 text-center leading-normal font-extrabold">
-          Building exceptional product teams
-        </h2>
-        <p className="text-2xl max-w-2xl pt-4 leading-normal text-center">
-          We help ambitious tech companies build pioneering product teams with
-          world-class product talent.
-        </p>
+        <BigHeading text="Building exceptional product teams" />
+        <SubHeading
+          text="We help ambitious tech companies build pioneering product teams with
+          world-class product talent."
+        />
       </div>
 
-      <div className="flex flex-col space-y-3 absolute bottom-10 min-w-max left-0 right-0 justify-center items-center">
+      <div className="flex flex-col space-y-3 absolute bottom-20 sm:bottom-5 min-w-max left-0 right-0 justify-center items-center">
         <p className="text-3xl">Let's have a chat</p>
         <p>hello@hiddentaro.com</p>
         <a
