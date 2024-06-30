@@ -17,7 +17,7 @@ const MvpPage = () => {
         <p className="text-3xl">Let's have a chat</p>
         <p>hello@hiddentaro.com</p>
         <a
-          href="https://uk.linkedin.com/in/kevin-rodriguez-ladino-464648a3"
+          href="https://www.linkedin.com/company/hidden-taro"
           target="_blank"
           rel="noopener noreferrer"
         >
