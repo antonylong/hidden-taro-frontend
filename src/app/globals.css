@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.hover-title-color-change:hover > p.text-lg {
+  color: #7a28ff;
+}
+
+.hover-line-color-change:hover hr {
+  border-color: #7a28ff;
+}
