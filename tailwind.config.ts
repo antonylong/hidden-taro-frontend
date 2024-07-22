@@ -7,6 +7,10 @@ const config: Config = {
       textColor: {
         global: "#ffffff",
       },
+      colors: {
+        hiddenPurple: "#7a28ff",
+        backgroundGrey: "#f8f8f8",
+      },
       screens: {
         xs: { max: "320px" }, // tiny screen
         sm: { max: "576px" }, // phone
