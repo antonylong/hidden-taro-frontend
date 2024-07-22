@@ -12,7 +12,7 @@ const ThirdPage: React.FC = () => {
     {
       title: "Snappy communication",
       description:
-        "Whether its a shared Slack channel, WhatsApp, email, video call, pigeon - we will make it work. You will never have to chase us or sit through weeks of silence because frankly, we hate that too.",
+        "Whether it's a shared Slack channel, WhatsApp, email, video call, pigeon - we will make it work. You will never have to chase us or sit through weeks of silence because frankly, we hate that too.",
     },
     {
       title: "Your trusted advisor",
@@ -42,7 +42,7 @@ const ThirdPage: React.FC = () => {
     {
       title: "Less is more",
       description:
-        "We prioritise long-lasting partnerships over being a factory so we usually work with 2-3 clients at once. Quality, relationships and detail matters to us greatly and that means staying focused.",
+        "We prioritise long-lasting partnerships over being a factory so we usually work with 2-3 clients at a time. Quality, relationships and detail matters to us greatly and that means staying focused.",
     },
   ];
   return (

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -8,7 +9,9 @@ const Header = () => {
       <h1 className="text-3xl sm:text-lg">Hidden Taro</h1>
       <div className="flex w-800 justify-between">
         {/* TODO: navigate to pages */}
-        <p className="pr-10">About</p>
+        <Link href="/about" className="pr-10">
+          About
+        </Link>
         {/* TODO: contact brings to bottom */}
         <p>Contact</p>
       </div>
