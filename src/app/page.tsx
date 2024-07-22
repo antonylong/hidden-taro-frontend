@@ -1,5 +1,5 @@
 import ThirdPage from "~/views/thirdPage/thirdPage";
-import Header from "./header";
+import Header from "../views/header/header";
 import LandingPage from "../views/landingPage/landingPage";
 import SubPage from "../views/subPage/subPage";
 import { ContactPage, Footer, FourthPage } from "~/views";

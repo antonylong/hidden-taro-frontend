@@ -1,4 +1,4 @@
-export { default as Header } from "../pages/header";
+export { default as Header } from "./header/header";
 // Used for V1
 // export { default as Footer } from "./landingPage/landingPage";
 export { default as HeroHeading } from "./mvpPage/mvpPage";
