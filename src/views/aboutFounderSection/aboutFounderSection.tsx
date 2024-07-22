@@ -36,7 +36,7 @@ const AboutFounderSection: React.FC = () => {
           width={720}
           height={720}
           alt="Portrait of the founder smiling"
-          className="mt-10"
+          className="mt-10 lg:hidden"
         />
       </div>
     </div>

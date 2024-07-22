@@ -44,7 +44,7 @@ const LandingPage: React.FC = () => {
     <div className="flex justify-between flex-col mt-24">
       <div className="flex px-36 py-28">
         <div>
-          <h2 className="text-8xl pb-12 max-w-6xl">
+          <h2 className="text-8xl pb-12 max-w-6xl lg:text-6xl">
             Building exceptional product teams
           </h2>
           <p className="text-lg max-w-xl">
@@ -57,7 +57,7 @@ const LandingPage: React.FC = () => {
           alt="white paper plane icon pointing right"
           width={200}
           height={200}
-          className="absolute right-20 mt-5 rotate-12"
+          className="absolute right-20 mt-5 rotate-12 lg:hidden"
         />
       </div>
 

@@ -5,7 +5,7 @@ interface ParagraphProps {
 }
 
 const Paragraph: React.FC<ParagraphProps> = ({ text }) => {
-  return <p className="text-lg text-center px-36 font-light">{text}</p>;
+  return <p className="text-lg text-center px-36 font-light lg:px-0">{text}</p>;
 };
 
 export default Paragraph;
