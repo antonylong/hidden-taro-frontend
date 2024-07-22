@@ -47,7 +47,7 @@ const LandingPage: React.FC = () => {
           <h2 className="text-8xl pb-12 lg:text-6xl">
             Building exceptional product teams
           </h2>
-          <p className="text-lg w-[55%] lg:w-auto">
+          <p className="text-lg w-[51%] lg:w-auto">
             We help ambitious tech companies build pioneering product teams with
             world-class product talent.
           </p>
