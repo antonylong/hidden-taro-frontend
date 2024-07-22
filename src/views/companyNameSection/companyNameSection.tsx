@@ -11,7 +11,7 @@ const CompanyNameSection: React.FC = () => {
         height={120}
         className="absolute right-12 mt-12 lg:hidden"
       />
-      <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 py-28">
+      <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 lg:px-10 py-28">
         <h1 className="text-2xl font-semibold pb-10">Our Name</h1>
         <p className="text-xl">
           Believe it or not, Taro is a root vegetable. Some of you may know it

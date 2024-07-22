@@ -41,7 +41,7 @@ const LandingPage: React.FC = () => {
   ];
 
   return (
-    <div className="flex justify-between flex-col mt-24">
+    <div className="bg-black flex justify-between flex-col pt-24">
       <div className="flex px-48 md:px-10 py-28">
         <div>
           <h2 className="text-8xl pb-12 lg:text-6xl">

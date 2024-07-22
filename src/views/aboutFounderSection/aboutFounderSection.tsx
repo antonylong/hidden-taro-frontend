@@ -4,10 +4,16 @@ import { BsLinkedin } from "react-icons/bs";
 
 const AboutFounderSection: React.FC = () => {
   return (
-    <div className="bg-white text-black flex justify-between gap-28 px-36 py-28">
+    <div className="bg-white text-black flex lg:flex-col justify-between gap-28 px-36 lg:px-10 py-28">
       <div className="flex-col">
         <h1 className="text-2xl pb-5">Our Founder</h1>
-        <div className="flex">
+        <Image
+          src="/images/kevin-portrait.jpg"
+          width={720}
+          height={720}
+          alt="Portrait of the founder smiling"
+        />
+        <div className="flex lg:pt-6">
           <p className="text-4xl font-light pr-5 pb-6 text-hiddenPurple">
             Kevin Rodriguez Ladino
           </p>
@@ -30,13 +36,13 @@ const AboutFounderSection: React.FC = () => {
           and create meaningful impact in the product community.
         </p>
       </div>
-      <div>
+      <div className="lg:hidden">
         <Image
           src="/images/kevin-portrait.jpg"
           width={720}
           height={720}
           alt="Portrait of the founder smiling"
-          className="mt-10 lg:hidden"
+          className="mt-10"
         />
       </div>
     </div>
