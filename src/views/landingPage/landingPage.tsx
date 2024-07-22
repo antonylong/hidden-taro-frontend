@@ -1,16 +1,10 @@
+import Image from "next/image";
 import React from "react";
 
-import { PaperPlaneIcon } from "~/assets/icons/PlaneWhiteRight/plane-white-right";
-import agreementShakeIcon from "../../assets/icons/AgreementShake/agreement-shake.png";
-import bicepFlexIcon from "../../assets/icons/BicepFlex/bicep-flex.png";
-import brainIcon from "../../assets/icons/Brain/brain.png";
-import clockForwardIcon from "../../assets/icons/ClockForward/clock-forward.png";
-import groupOfPeopleIcon from "../../assets/icons/GroupOfPeople/group-of-people.png";
 import { FaRegHandshake } from "react-icons/fa6";
 import { GiBiceps, GiBrain } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
 import { PiClockClockwiseBold } from "react-icons/pi";
-import GetInTouchButton from "~/components/button/getInTouchButton";
 
 const LandingPage: React.FC = () => {
   const textInfo = [
@@ -47,29 +41,27 @@ const LandingPage: React.FC = () => {
   ];
 
   return (
-    <>
-      {/* <div className="flex">
-        <div className="flex justify-between flex-col mt-24 border-red-700 border-2">
-          <h2 className="text-8xl pb-8 bg-purple-400">
+    <div className="flex justify-between flex-col mt-24">
+      <div className="flex px-36 py-28">
+        <div>
+          <h2 className="text-8xl pb-12 max-w-6xl">
             Building exceptional product teams
           </h2>
-          <p className="text-lg max-w-xl bg-orange-400">
+          <p className="text-lg max-w-xl">
             We help ambitious tech companies build pioneering product teams with
             world-class product talent.
           </p>
         </div>
-        <div className="border-2 border-blue-400 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 flex justify-center items-center mr-96">
-          <PaperPlaneIcon height={50} width={50} />
-        </div>
-      </div> */}
-      <div className="flex justify-between flex-col px-36 mt-24 py-28">
-        <h2 className="text-8xl pb-12">Building exceptional product teams</h2>
-        <p className="text-lg max-w-xl">
-          We help ambitious tech companies build pioneering product teams with
-          world-class product talent.
-        </p>
+        <Image
+          src="/icons/Plane-White-Right.png"
+          alt="white paper plane icon pointing right"
+          width={200}
+          height={200}
+          className="absolute right-20 mt-5 rotate-12"
+        />
       </div>
-      <div className="flex px-20 pt-10 pb-40 justify-between">
+
+      <div className="flex px-20 pt-</div>10 pb-40 justify-between">
         {textInfo.map((data) => (
           <div className="px-2 w-56 hover-line-color-change" key={data.title}>
             <hr className="h-[4px]" />
@@ -79,7 +71,7 @@ const LandingPage: React.FC = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

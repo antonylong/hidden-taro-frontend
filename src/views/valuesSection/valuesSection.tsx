@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { MediumHeading, MediumSubHeading } from "~/components";
 import GetInTouchButton from "~/components/button/getInTouchButton";
@@ -48,10 +49,17 @@ const ValuesSection: React.FC = () => {
   return (
     <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 pt-48 pb-20 text-center">
       <MediumHeading text="How we get things done" />
-      <MediumSubHeading
-        text="We've been burned before as product candidates and hiring managers, so
+      <p className="text-xl font-light px-24">
+        We've been burned before as product candidates and hiring managers, so
         we created a methodology that we think is fair, transparent, easy to
-        work with and meaningful."
+        work with and meaningful.
+      </p>
+      <Image
+        src="/icons/Plane-Black-Left.png"
+        alt="Black icon plane"
+        width={120}
+        height={120}
+        className="absolute right-28"
       />
       <div className="grid grid-cols-2 gap-4 pt-20 text-start">
         {textInfo.map((data) => (
