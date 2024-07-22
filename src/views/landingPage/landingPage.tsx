@@ -63,11 +63,8 @@ const LandingPage: React.FC = () => {
 
       <div className="flex px-20 md:px-20 md:flex-col pt-10 pb-40 justify-between">
         {textInfo.map((data) => (
-          <div
-            className="w-56 hover-line-color-change  lg:hidden"
-            key={data.title}
-          >
-            <hr className="h-[4px]" />
+          <div className="w-56 hover-line-color-change" key={data.title}>
+            <hr className="h-[4px] lg:hidden" />
             <div className="pt-12">{data.icon}</div>
             <p className="text-lg pb-5 pt-3">{data.title}</p>
             <p className="text-sm font-light">{data.description}</p>
