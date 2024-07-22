@@ -10,7 +10,7 @@ const ContactUsSection: React.FC = () => {
         alt="white paper plane icon pointing right"
         width={150}
         height={150}
-        className="absolute right-36 mt-5 rotate-12"
+        className="absolute right-36 mt-8 rotate-12"
       />
       <div className="bg-black text-white flex justify-between flex-col px-36 pt-48 pb-20 text-center">
         <MediumHeading text="Let's have a chat" />
@@ -20,7 +20,7 @@ const ContactUsSection: React.FC = () => {
         {/* <div className="pt-12">
         <div>A FORM</div>
         </div> */}
-        <p className="font-semibold pt-24">hello@hiddentaro.com</p>
+        <p className="font-semibold py-24">hello@hiddentaro.com</p>
       </div>
     </div>
   );

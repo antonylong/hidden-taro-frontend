@@ -6,13 +6,13 @@ const AboutFounderSection: React.FC = () => {
   return (
     <div className="bg-white text-black flex justify-between gap-28 px-36 py-28">
       <div className="flex-col">
-        <h1 className="text-2xl">Our Founder</h1>
+        <h1 className="text-2xl pb-5">Our Founder</h1>
         <div className="flex">
-          <p className="text-4xl font-light pr-5 pb-5 text-hiddenPurple">
+          <p className="text-4xl font-light pr-5 pb-6 text-hiddenPurple">
             Kevin Rodriguez Ladino
           </p>
           <a
-            href="https://www.linkedin.com/company/hidden-taro"
+            href="https://www.linkedin.com/company/kevinrodriguezladino"
             target="_blank"
             rel="noopener noreferrer"
           >
