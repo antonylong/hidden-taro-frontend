@@ -12,7 +12,7 @@ const AboutFounderSection: React.FC = () => {
             Kevin Rodriguez Ladino
           </p>
           <a
-            href="https://www.linkedin.com/company/kevinrodriguezladino"
+            href="https://www.linkedin.com/in/kevin-rodriguez-ladino-464648a3/"
             target="_blank"
             rel="noopener noreferrer"
           >

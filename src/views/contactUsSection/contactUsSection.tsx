@@ -4,7 +4,7 @@ import { MediumHeading, MediumSubHeading } from "~/components";
 
 const ContactUsSection: React.FC = () => {
   return (
-    <div>
+    <div id="contact-us">
       <Image
         src="/icons/Plane-White-Right.png"
         alt="white paper plane icon pointing right"

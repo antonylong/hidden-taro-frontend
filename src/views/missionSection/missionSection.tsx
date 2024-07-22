@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaHandsHelping } from "react-icons/fa";
 import { GiFist } from "react-icons/gi";
@@ -53,9 +54,11 @@ const MissionSection: React.FC = () => {
         ))}
       </div>
       <div className="pt-20 flex flex-col items-center justify-center">
-        <button className="bg-white text-black border-2 border-solid border-black rounded-xl h-16 px-16">
-          <p>Get In Touch</p>
-        </button>
+        <Link href="#contact-us">
+          <button className="bg-white text-black text- border-2 border-solid border-black rounded-xl h-16 px-16">
+            <p>Get In Touch</p>
+          </button>
+        </Link>
       </div>
     </div>
   );

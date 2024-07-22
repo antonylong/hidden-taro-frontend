@@ -9,9 +9,7 @@ const Footer: React.FC = () => {
           <p className="pr-5">Terms</p>
           <p>Privacy</p>
         </div>
-        <p className="left-0 right-0">
-          © 2024 Hidden Taro. All Rights Reserved
-        </p>
+        <p className="absolute left-0 right-0">© 2024 Hidden Taro</p>
         <a
           href="https://www.linkedin.com/company/hidden-taro"
           target="_blank"

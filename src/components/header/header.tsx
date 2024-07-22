@@ -12,8 +12,7 @@ const Header = () => {
         <Link href="/about" className="pr-10">
           About
         </Link>
-        {/* TODO: contact brings to bottom */}
-        <p>Contact</p>
+        <Link href="#contact-us">Contact</Link>
       </div>
     </header>
   );
