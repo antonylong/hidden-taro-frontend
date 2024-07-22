@@ -12,6 +12,7 @@ const AboutFounderSection: React.FC = () => {
           width={720}
           height={720}
           alt="Portrait of the founder smiling"
+          className="hidden lg:block"
         />
         <div className="flex lg:pt-6">
           <p className="text-4xl font-light pr-5 pb-6 text-hiddenPurple">

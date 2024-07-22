@@ -44,7 +44,7 @@ const MissionSection: React.FC = () => {
           delivers better results."
         />
       </div>
-      <div className="flex pt-24 md:flex-col justify-between">
+      <div className="flex pt-24 md:flex-col justify-between px-10">
         {textInfo.map((data) => (
           <div
             className="md:pb-10 px-10 hover-title-color-change"
