@@ -32,10 +32,14 @@ body {
   }
 }
 
-.hover-title-color-change:hover > p.text-lg {
+.hover-title-color-change:hover > p.text-xl {
   color: #7a28ff;
 }
 
 .hover-line-color-change:hover hr {
   border-color: #7a28ff;
+}
+
+.custom-offwhite-background {
+  background-color: #f8f8f8;
 }

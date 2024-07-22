@@ -1,3 +1,4 @@
+import ThirdPage from "~/views/thirdPage/thirdPage";
 import Header from "../views/header/header";
 import LandingPage from "../views/landingPage/landingPage";
 import SubPage from "../views/subPage/subPage";
@@ -8,6 +9,7 @@ export default function Page() {
       <Header />
       <LandingPage />
       <SubPage />
+      <ThirdPage />
     </main>
   );
 }

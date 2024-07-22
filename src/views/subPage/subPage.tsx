@@ -1,55 +1,63 @@
 import React from "react";
+import { FaHandsHelping } from "react-icons/fa";
+import { GiFist } from "react-icons/gi";
+import { MdDiversity3 } from "react-icons/md";
+import { PiHandHeartFill } from "react-icons/pi";
+import { MediumHeading, MediumSubHeading } from "~/components";
+import GetInTouchButton from "~/components/button/getInTouchButton";
 
-const SubPage = () => {
+const SubPage: React.FC = () => {
   const textInfo = [
-    // TODO: need to add or reference the icons to the actual icons
     {
-      icon: "ClaspHands",
+      icon: <FaHandsHelping size={28} />,
       title: "Exclusive",
       description:
-        "We are run by tech professionals who have built and grown amazing products and teams, across multiple sectors world-wide - we're here to help.",
+        "Your exclusive head-hunting partner, dedicated to an in-depth, thoughtful and targeted search. By leveraging our product experience and taking the time to thoroughly understand your business and the nuances of a role we are able to deliver exceptional, hard to find candidates.",
     },
     {
-      icon: "Join",
+      icon: <MdDiversity3 size={28} />,
       title: "Project",
       description:
-        "We really care about delivering value to companies and talent. If at any point we feel we can't provide that, you'll be the first to know, always.",
+        "A multiple role approach that allows you to streamline your various hiring needs exclusively with a dedicated and experienced product head-hunter. Although this option is cost effective, because of our product expertise you are guaranteed consistent high quality results.",
     },
     {
-      icon: "Heart",
+      icon: <PiHandHeartFill size={28} />,
       title: "Contract",
-      description:
-        "As professionals we have spent years building an incredibly  meaningful and diverse network which we tap into to deliver powerful results, for you.",
+      description: `Efficient and flexible hiring solutions for short-term needs. We offer "ready to go" product managers who can seamlessly integrate into your projects, providing immediate expertise and impact.`,
     },
     {
-      icon: "Fist",
+      icon: <GiFist size={28} />,
       title: "Extras",
       description:
-        "We respect talent. You'll never see us ghost, over-promise, give un-helpful feedback, set unrealistic expectations or waste time. This will never change.",
+        "We create high-quality case studies that simulate real challenges your product teams encounter. We also conduct product sense interviews with your candidates on your behalf. We summerise our observations into a report, send you the recordings and have a in-depth chat with you to debrief.",
     },
   ];
 
   return (
-    <>
-      <div className="flex justify-between flex-col px-36 mt-24">
-        <h2 className="text-8xl pb-8">Building exceptional product teams</h2>
-        <p className="text-lg max-w-xl">
-          We help ambitious tech companies build pioneering product teams with
-          world-class product talent.
-        </p>
+    <div className="bg-white text-black pb-20">
+      <div className="flex justify-between flex-col px-36 pt-48 text-center">
+        <MediumHeading text="Tailored solutions for you" />
+        <MediumSubHeading
+          text="We believe in creating meaningful partnerships, not just being a
+          resume machine. Working exclusively fosters deeper collaboration and
+          delivers better results."
+        />
       </div>
-      <div className="flex px-20 pt-10 justify-between">
+      <div className="flex px-20 pt-24 justify-between">
         {textInfo.map((data) => (
-          <div className="px-2 w-56">
-            {/* TODO: onHover = line colour should change to purple */}
-            <hr />
-            {/* <image>{data.icon}</image> */}
-            <p className="text-lg py-5">{data.title}</p>
-            <p className="text-xs">{data.description}</p>
+          <div className="px-2 w-72 hover-title-color-change" key={data.title}>
+            <div>{data.icon}</div>
+            <p className="text-xl py-3">{data.title}</p>
+            <p className="text-sm font-light">{data.description}</p>
           </div>
         ))}
       </div>
-    </>
+      <div className="pt-20 flex flex-col items-center justify-center">
+        <button className="bg-white text-black border-2 border-solid border-black rounded-xl h-16 px-16">
+          Get In Touch
+        </button>
+      </div>
+    </div>
   );
 };
 

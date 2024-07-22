@@ -1,2 +1,4 @@
 export { default as BigHeading } from "./text/bigHeading";
 export { default as SubHeading } from "./text/subHeading";
+export { default as MediumHeading } from "./text/mediumHeading";
+export { default as MediumSubHeading } from "./text/mediumSubHeading";

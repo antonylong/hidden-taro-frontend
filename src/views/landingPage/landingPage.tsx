@@ -1,34 +1,45 @@
 import React from "react";
 
-const LandingPage = () => {
+import { PaperPlaneIcon } from "~/assets/icons/PlaneWhiteRight/plane-white-right";
+import agreementShakeIcon from "../../assets/icons/AgreementShake/agreement-shake.png";
+import bicepFlexIcon from "../../assets/icons/BicepFlex/bicep-flex.png";
+import brainIcon from "../../assets/icons/Brain/brain.png";
+import clockForwardIcon from "../../assets/icons/ClockForward/clock-forward.png";
+import groupOfPeopleIcon from "../../assets/icons/GroupOfPeople/group-of-people.png";
+import { FaRegHandshake } from "react-icons/fa6";
+import { GiBiceps, GiBrain } from "react-icons/gi";
+import { IoIosPeople } from "react-icons/io";
+import { PiClockClockwiseBold } from "react-icons/pi";
+import GetInTouchButton from "~/components/button/getInTouchButton";
+
+const LandingPage: React.FC = () => {
   const textInfo = [
-    // TODO: need to add or reference the icons to the actual icons
     {
-      icon: "Brain",
+      icon: <GiBrain size={24} />,
       title: "Seasoned tech pros",
       description:
         "We are run by tech professionals who have built and grown amazing products and teams, across multiple sectors world-wide - we're here to help.",
     },
     {
-      icon: "Timer",
+      icon: <PiClockClockwiseBold size={24} />,
       title: "Time is precious",
       description:
         "We really care about delivering value to companies and talent. If at any point we feel we can't provide that, you'll be the first to know, always.",
     },
     {
-      icon: "People",
+      icon: <IoIosPeople size={24} />,
       title: "Existing tech network",
       description:
         "As professionals we have spent years building an incredibly  meaningful and diverse network which we tap into to deliver powerful results, for you.",
     },
     {
-      icon: "Handshake",
+      icon: <FaRegHandshake size={24} />,
       title: "We play fair with talent",
       description:
         "We respect talent. You'll never see us ghost, over-promise, give un-helpful feedback, set unrealistic expectations or waste time. This will never change.",
     },
     {
-      icon: "Bicep",
+      icon: <GiBiceps size={24} />,
       title: "We do so much more",
       description:
         "From building your case study to running technical interviews for you. We help you with a broad range of needs, leveraging our experience in every way we can.",
@@ -37,21 +48,34 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="flex justify-between flex-col px-36 mt-24">
-        <h2 className="text-8xl pb-8">Building exceptional product teams</h2>
+      {/* <div className="flex">
+        <div className="flex justify-between flex-col mt-24 border-red-700 border-2">
+          <h2 className="text-8xl pb-8 bg-purple-400">
+            Building exceptional product teams
+          </h2>
+          <p className="text-lg max-w-xl bg-orange-400">
+            We help ambitious tech companies build pioneering product teams with
+            world-class product talent.
+          </p>
+        </div>
+        <div className="border-2 border-blue-400 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-96 lg:h-96 flex justify-center items-center mr-96">
+          <PaperPlaneIcon height={50} width={50} />
+        </div>
+      </div> */}
+      <div className="flex justify-between flex-col px-36 mt-24 py-28">
+        <h2 className="text-8xl pb-12">Building exceptional product teams</h2>
         <p className="text-lg max-w-xl">
           We help ambitious tech companies build pioneering product teams with
           world-class product talent.
         </p>
       </div>
-      <div className="flex px-20 pt-10 justify-between">
+      <div className="flex px-20 pt-10 pb-40 justify-between">
         {textInfo.map((data) => (
-          <div className="px-2 w-56">
-            {/* TODO: onHover = line colour should change to purple */}
-            <hr />
-            {/* <image>{data.icon}</image> */}
-            <p className="text-lg py-5">{data.title}</p>
-            <p className="text-xs">{data.description}</p>
+          <div className="px-2 w-56 hover-line-color-change" key={data.title}>
+            <hr className="h-[4px]" />
+            <div className="pt-12">{data.icon}</div>
+            <p className="text-lg pb-5 pt-3">{data.title}</p>
+            <p className="text-sm font-light">{data.description}</p>
           </div>
         ))}
       </div>
