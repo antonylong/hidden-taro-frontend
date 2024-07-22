@@ -6,10 +6,8 @@ const Footer: React.FC = () => {
     <footer className="text-center text-white px-10 pb-5">
       <div className="flex justify-between">
         <div className="">
-          <a href="#" className="pr-5">
-            Terms
-          </a>
-          <a href="#">Privacy</a>
+          <p className="pr-5">Terms</p>
+          <p>Privacy</p>
         </div>
         <p className="left-0 right-0">
           © 2024 Hidden Taro. All Rights Reserved
