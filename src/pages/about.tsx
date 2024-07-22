@@ -4,6 +4,7 @@ import {
   AboutFounderSection,
   MainAboutSection,
   CompanyNameSection,
+  ContactUsSection,
 } from "~/views";
 
 const AboutPage: NextPage = () => {
@@ -12,6 +13,7 @@ const AboutPage: NextPage = () => {
       <MainAboutSection />
       <AboutFounderSection />
       <CompanyNameSection />
+      <ContactUsSection />
     </main>
   );
 };
