@@ -47,9 +47,9 @@ const ValuesSection: React.FC = () => {
     },
   ];
   return (
-    <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 pt-48 pb-20 text-center">
+    <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 lg:px-10 pt-48 pb-20 text-center">
       <MediumHeading text="How we get things done" />
-      <p className="text-xl font-light px-24 lg:px-0">
+      <p className="text-xl font-light px-24 lg:px-10">
         We've been burned before as product candidates and hiring managers, so
         we created a methodology that we think is fair, transparent, easy to
         work with and meaningful.

@@ -14,7 +14,7 @@ const JobRolesSection: React.FC = () => {
     "Technical Product Manager",
   ];
   return (
-    <div className="bg-black text-white flex justify-between flex-col px-36 pt-48 pb-20 text-center">
+    <div className="bg-black text-white flex justify-between flex-col px-36 lg:px-10 pt-48 pb-20 text-center">
       <MediumHeading text="Where we do our best work" />
       <MediumSubHeading text="Our deep sector experience allows us to help you with a range of product roles of all seniority levels from Associate all the way to CPO." />
       <div className="flex flex-wrap row pt-12 px-10 gap-x-14 gap-y-5 justify-center">

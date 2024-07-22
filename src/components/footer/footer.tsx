@@ -16,11 +16,11 @@ const Footer: React.FC = () => {
           href="https://www.linkedin.com/company/hidden-taro"
           target="_blank"
           rel="noopener noreferrer"
+          className="lg:hidden absolute right-5"
         >
           <BsLinkedin className="mt-1" />
         </a>
       </div>
-      {/* <div className="mt-10"></div> */}
     </footer>
   );
 };
