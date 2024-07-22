@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsLinkedin />
+          <BsLinkedin className="mt-1" />
         </a>
       </div>
       <div className="mt-4"></div>

@@ -2,7 +2,7 @@ import React from "react";
 import { MediumHeading, MediumSubHeading } from "~/components";
 import GetInTouchButton from "~/components/button/getInTouchButton";
 
-const ThirdPage: React.FC = () => {
+const ValuesSection: React.FC = () => {
   const textInfo = [
     {
       title: "Looking at the big picture",
@@ -46,7 +46,7 @@ const ThirdPage: React.FC = () => {
     },
   ];
   return (
-    <div className="custom-offwhite-background text-black flex justify-between flex-col px-36 pt-48 pb-20 text-center">
+    <div className="bg-backgroundGrey text-black flex justify-between flex-col px-36 pt-48 pb-20 text-center">
       <MediumHeading text="How we get things done" />
       <MediumSubHeading
         text="We've been burned before as product candidates and hiring managers, so
@@ -63,11 +63,11 @@ const ThirdPage: React.FC = () => {
       </div>
       <div className="pt-20 flex flex-col items-center justify-center">
         <button className="bg-white text-black border-2 border-solid border-black rounded-xl h-16 px-16">
-          Get In Touch
+          <p>Get In Touch</p>
         </button>
       </div>
     </div>
   );
 };
 
-export default ThirdPage;
+export default ValuesSection;

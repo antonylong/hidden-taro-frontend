@@ -1,7 +1,7 @@
 import React from "react";
 import { MediumHeading, MediumSubHeading } from "~/components";
 
-const FourthPage: React.FC = () => {
+const JobRolesSection: React.FC = () => {
   const jobRoles = [
     "Product Leadership",
     "Product Manager",
@@ -24,12 +24,12 @@ const FourthPage: React.FC = () => {
         ))}
       </div>
       <div className="pt-20 flex flex-col items-center justify-center">
-        <button className="bg-white text-black border-2 border-solid border-black rounded-xl h-16 px-16">
-          Get In Touch
+        <button className="bg-white text-black text- border-2 border-solid border-black rounded-xl h-16 px-16">
+          <p>Get In Touch</p>
         </button>
       </div>
     </div>
   );
 };
 
-export default FourthPage;
+export default JobRolesSection;

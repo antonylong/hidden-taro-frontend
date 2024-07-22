@@ -1,7 +1,7 @@
 import React from "react";
 import { MediumHeading, MediumSubHeading } from "~/components";
 
-const ContactPage: React.FC = () => {
+const ContactUsSection: React.FC = () => {
   return (
     <div className="bg-black text-white flex justify-between flex-col px-36 pt-48 pb-20 text-center">
       <MediumHeading text="Let's have a chat" />
@@ -16,4 +16,4 @@ const ContactPage: React.FC = () => {
   );
 };
 
-export default ContactPage;
+export default ContactUsSection;

@@ -27,6 +27,12 @@ body {
   font-family: "Lexend";
 }
 
+@layer base {
+  html {
+    font-family: "Lexend";
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -39,8 +45,4 @@ body {
 
 .hover-line-color-change:hover hr {
   border-color: #7a28ff;
-}
-
-.custom-offwhite-background {
-  background-color: #f8f8f8;
 }

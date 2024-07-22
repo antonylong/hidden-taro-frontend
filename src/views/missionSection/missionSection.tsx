@@ -6,7 +6,7 @@ import { PiHandHeartFill } from "react-icons/pi";
 import { MediumHeading, MediumSubHeading } from "~/components";
 import GetInTouchButton from "~/components/button/getInTouchButton";
 
-const SubPage: React.FC = () => {
+const MissionSection: React.FC = () => {
   const textInfo = [
     {
       icon: <FaHandsHelping size={28} />,
@@ -54,11 +54,11 @@ const SubPage: React.FC = () => {
       </div>
       <div className="pt-20 flex flex-col items-center justify-center">
         <button className="bg-white text-black border-2 border-solid border-black rounded-xl h-16 px-16">
-          Get In Touch
+          <p>Get In Touch</p>
         </button>
       </div>
     </div>
   );
 };
 
-export default SubPage;
+export default MissionSection;
