@@ -10,10 +10,10 @@ import {
 const AboutPage: NextPage = () => {
   return (
     <main>
-      <MainAboutSection />
+      {/* <MainAboutSection />
       <AboutFounderSection />
       <CompanyNameSection />
-      <ContactUsSection />
+      <ContactUsSection /> */}
     </main>
   );
 };

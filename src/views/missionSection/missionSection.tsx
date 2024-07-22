@@ -36,7 +36,7 @@ const MissionSection: React.FC = () => {
 
   return (
     <div className="bg-white text-black pb-20">
-      <div className="flex justify-between flex-col px-36 pt-48 text-center">
+      <div className="flex justify-between flex-col px-20 pt-48 text-center">
         <MediumHeading text="Tailored solutions for you" />
         <MediumSubHeading
           text="We believe in creating meaningful partnerships, not just being a
@@ -44,9 +44,12 @@ const MissionSection: React.FC = () => {
           delivers better results."
         />
       </div>
-      <div className="flex px-20 pt-24 justify-between">
+      <div className="flex pt-24 md:flex-col justify-between">
         {textInfo.map((data) => (
-          <div className="px-2 w-72 hover-title-color-change" key={data.title}>
+          <div
+            className="md:pb-10 px-10 hover-title-color-change"
+            key={data.title}
+          >
             <div>{data.icon}</div>
             <p className="text-xl py-3">{data.title}</p>
             <p className="text-sm font-light">{data.description}</p>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { MediumHeading, MediumSubHeading } from "~/components";
-import GetInTouchButton from "~/components/button/getInTouchButton";
 
 const ValuesSection: React.FC = () => {
   const textInfo = [

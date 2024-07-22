@@ -21,7 +21,7 @@ const HomePage: NextPage = () => {
 
   return (
     <>
-      <main className="flex min-h-screen flex-col w-full">
+      <main className="flex min-h-screen flex-col">
         <MainPage />
       </main>
     </>

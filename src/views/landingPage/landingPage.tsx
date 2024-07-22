@@ -42,12 +42,12 @@ const LandingPage: React.FC = () => {
 
   return (
     <div className="flex justify-between flex-col mt-24">
-      <div className="flex px-36 py-28">
+      <div className="flex px-48 md:px-10 py-28">
         <div>
-          <h2 className="text-8xl pb-12 max-w-6xl lg:text-6xl">
+          <h2 className="text-8xl pb-12 lg:text-6xl">
             Building exceptional product teams
           </h2>
-          <p className="text-lg max-w-xl">
+          <p className="text-lg">
             We help ambitious tech companies build pioneering product teams with
             world-class product talent.
           </p>
@@ -61,9 +61,9 @@ const LandingPage: React.FC = () => {
         />
       </div>
 
-      <div className="flex px-20 pt-</div>10 pb-40 justify-between">
+      <div className="flex px-20 md:px-20 md:flex-col pt-10 pb-40 justify-between">
         {textInfo.map((data) => (
-          <div className="px-2 w-56 hover-line-color-change" key={data.title}>
+          <div className="w-56 hover-line-color-change md:" key={data.title}>
             <hr className="h-[4px]" />
             <div className="pt-12">{data.icon}</div>
             <p className="text-lg pb-5 pt-3">{data.title}</p>
