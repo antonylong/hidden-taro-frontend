@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="text-center text-white px-10 pb-5">
       <div className="flex justify-between">
-        <div className="">
+        <div className="flex">
           <p className="pr-5">Terms</p>
           <p>Privacy</p>
         </div>
