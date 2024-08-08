@@ -7,15 +7,17 @@ import {
   MissionSection,
   ValuesSection,
 } from "~/views";
+import MvpPage from "~/views/mvpPage/mvpPage";
 
 const HomePage: NextPage = () => {
   const MainPage = () => (
     <>
-      <LandingPage />
+      {/* <LandingPage />
       <MissionSection />
       <ValuesSection />
       <JobRolesSection />
-      <ContactUsSection />
+      <ContactUsSection /> */}
+      <MvpPage />
     </>
   );
 

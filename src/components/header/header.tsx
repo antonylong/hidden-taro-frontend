@@ -7,12 +7,12 @@ const Header = () => {
       <Link href="/">
         <h1 className="text-3xl sm:text-lg">Hidden Taro</h1>
       </Link>
-      <div className="flex w-800 justify-between">
+      {/* <div className="flex w-800 justify-between">
         <Link href="/about" className="pr-10">
           About
         </Link>
         <Link href="#contact-us">Contact</Link>
-      </div>
+      </div> */}
     </header>
   );
 };

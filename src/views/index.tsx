@@ -10,6 +10,6 @@ export { default as JobRolesSection } from "./jobRolesSection/jobRolesSection";
 export { default as ContactUsSection } from "./contactUsSection/contactUsSection";
 
 // NOTE: Pages for about page
-export { default as MainAboutSection } from "./mainAboutSection/mainAboutSection";
-export { default as AboutFounderSection } from "./aboutFounderSection/aboutFounderSection";
-export { default as CompanyNameSection } from "./companyNameSection/companyNameSection";
+// export { default as MainAboutSection } from "./mainAboutSection/mainAboutSection";
+// export { default as AboutFounderSection } from "./aboutFounderSection/aboutFounderSection";
+// export { default as CompanyNameSection } from "./companyNameSection/companyNameSection";
